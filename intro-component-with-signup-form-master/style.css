@@ -21,9 +21,10 @@ body {
 }
 main {
     background-image: url(./images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--Red-primary);
-    height: 100vh;
-    padding: 4rem 1.5rem 1.5rem;
+    padding: 4rem 1.5rem 5rem;
 }
 
 main h1 {
@@ -40,15 +41,73 @@ main h1 {
     color: #fff;
     opacity: .8;
     margin-bottom: 2.7rem;
+    font-weight: 500;
 }
 
 .advertisement {
-    /* width: 100%;
-    margin: 0 auto; */
-    outline: 1px solid black;
-    padding: 1rem 4.5rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px rgba(0, 0, 0, .2);
+    padding: 1.2rem 4.5rem;
+    background-color: var(--Blue-accent);
+    margin-bottom: 1.5rem;
 }
 .advertisement p {
     color: #fff;
 }
+.trial {
+    font-weight: 650;
+}
+.op {
+    opacity: .8;
+}
 
+/*===== login ========*/
+
+.login {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 8px rgba(0, 0, 0, .2);
+}
+.login input {
+    width: 100%;
+    padding: 1rem 1rem;
+    border: none;
+    margin-bottom: .8rem;
+    outline: 1px solid lightgray;
+    border-radius: 5px;
+}
+.login input::placeholder {
+    color: var(--Dark-Blue-netural);
+    font-weight: 600;
+}
+
+/*========button========*/
+
+.btn button {
+    background-color: var(--Green-primary);
+    width: 100%;
+    padding: 1.4rem;
+    text-transform: uppercase;
+    word-spacing: .1rem;
+    letter-spacing: .1rem;
+    color: #fff;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    margin: 1.2rem 0;
+    font-size: .95rem;
+}
+
+.login p {
+    font-size: .8rem;
+    text-align: center;
+}
+.agree {
+    opacity: .5;
+}
+.service {
+    color: red;
+    font-weight: 600;
+}
